@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="Kilogram" Id="{0e79f689-22d9-4414-a6dd-e72e1f576ede}">
+    <Declaration><![CDATA[TYPE Kilogram : LREAL;
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

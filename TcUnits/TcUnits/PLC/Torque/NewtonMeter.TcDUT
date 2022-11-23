@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="NewtonMeter" Id="{37e06295-d7dd-46ae-961a-b5aca1322381}">
+    <Declaration><![CDATA[TYPE NewtonMeter : LREAL;
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
