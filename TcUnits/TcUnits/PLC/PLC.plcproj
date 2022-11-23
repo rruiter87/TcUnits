@@ -29,6 +29,9 @@
     <Compile Include="Speed\MillimeterPerSecond.TcDUT">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Time\Millisecond.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Torque\NewtonMeter.TcDUT">
       <SubType>Code</SubType>
     </Compile>
@@ -39,6 +42,7 @@
   <ItemGroup>
     <Folder Include="Distance" />
     <Folder Include="Force" />
+    <Folder Include="Time" />
     <Folder Include="Torque" />
     <Folder Include="Speed" />
     <Folder Include="Weight" />
