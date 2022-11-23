@@ -23,6 +23,9 @@
     <Company>Roald</Company>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Acceleration\MillimeterPerSecondSquared.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Distance\Millimeter.TcDUT">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +51,7 @@
   <ItemGroup>
     <Folder Include="Distance" />
     <Folder Include="Force" />
+    <Folder Include="Acceleration" />
     <Folder Include="Time" />
     <Folder Include="Torque" />
     <Folder Include="Speed" />

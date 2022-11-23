@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="MillimeterPerSecondSquared" Id="{2cb90d29-1cfd-4828-abab-08d141b5a473}">
+    <Declaration><![CDATA[TYPE MillimeterPerSecondSquared : LREAL;
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
