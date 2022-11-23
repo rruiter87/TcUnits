@@ -7,7 +7,7 @@
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>true</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
-    <Name>PLC</Name>
+    <Name>TcUnits</Name>
     <ProgramVersion>3.1.4023.0</ProgramVersion>
     <Application>{b006f182-345b-4b4f-b104-3c04ae78f1a5}</Application>
     <TypeSystem>{fc012a3d-851c-47fb-b77b-8e301d9e2ab8}</TypeSystem>
@@ -20,6 +20,7 @@
     <ProjectVersion>0.1.0</ProjectVersion>
     <Author>Roald Ruiter</Author>
     <Description>Aliases for units</Description>
+    <Company>Roald</Company>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Distance\Millimeter.TcDUT">
@@ -53,32 +54,7 @@
     <Folder Include="Weight" />
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderReference Include="Tc2_Standard">
-      <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
-      <Namespace>Tc2_Standard</Namespace>
-    </PlaceholderReference>
-    <PlaceholderReference Include="Tc2_System">
-      <DefaultResolution>Tc2_System, * (Beckhoff Automation GmbH)</DefaultResolution>
-      <Namespace>Tc2_System</Namespace>
-    </PlaceholderReference>
-    <PlaceholderReference Include="Tc3_Module">
-      <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>
-      <Namespace>Tc3_Module</Namespace>
-    </PlaceholderReference>
-  </ItemGroup>
-  <ItemGroup>
-    <PlaceholderResolution Include="Tc2_Standard">
-      <Resolution>Tc2_Standard, 3.3.3.0 (Beckhoff Automation GmbH)</Resolution>
-    </PlaceholderResolution>
-    <PlaceholderResolution Include="Tc2_System">
-      <Resolution>Tc2_System, 3.4.26.0 (Beckhoff Automation GmbH)</Resolution>
-    </PlaceholderResolution>
-    <PlaceholderResolution Include="Tc3_Module">
-      <Resolution>Tc3_Module, 3.3.21.0 (Beckhoff Automation GmbH)</Resolution>
-    </PlaceholderResolution>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="PLC.tmc">
+    <None Include="TcUnits.tmc">
       <SubType>Content</SubType>
     </None>
   </ItemGroup>
