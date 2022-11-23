@@ -17,7 +17,7 @@
     <LibraryReferences>{08cfa5ec-be79-4a04-ada0-80de2c70a767}</LibraryReferences>
     <Released>true</Released>
     <Title>TcUnits</Title>
-    <ProjectVersion>0.1.0</ProjectVersion>
+    <ProjectVersion>0.1.1</ProjectVersion>
     <Author>Roald Ruiter</Author>
     <Description>Aliases for units</Description>
     <Company>Roald</Company>
